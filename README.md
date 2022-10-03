@@ -37,3 +37,31 @@ Merge Sort Projesi
             [8,11,12,16,21,22]
             
     Big-O showcase >> O(nlogn)
+
+
+[7, 5, 1, 8, 3, 6, 0, 9, 4, 2] array Binary-Search-Tree steps.
+
+root:7 
+right 8 left 5 .
+
+leftside of 0 is 1, rightside 3.
+
+leftside of 3 is 2, rightside 4.
+
+Right side of 8 is 9.
+
+
+
+                       7
+                     (root)
+
+                5                8
+          
+            1         6               9
+        
+        0      3 
+
+            2       4
+            
+            
+             Right side of root (7) bigger items, left side of root (7) smaller items.
